@@ -1,6 +1,6 @@
 import { uploadPhoto, createUser } from '.utils';
 
-function handleProfileSignup() {
+export default function handleProfileSignup() {
     return promise1.finally([
         uploadPhoto(),
         createUser(),
