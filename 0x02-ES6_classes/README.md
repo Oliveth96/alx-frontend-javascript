@@ -36,5 +36,5 @@
 
 <h5>Author</h5>
 
-<br>
+
 [Ndubuka Oliveth](https://github.com/Oliveth96)
