@@ -8,7 +8,7 @@ interface Teacher {
 }
 
 interface Directors extends Teacher {
-  numberpfReports: number;
+  numberOfReports: number;
 }
 
 function printTeacher(firstName: string, lastName: string) {
@@ -41,9 +41,4 @@ class StudentClass implements StudentClass {
   }
 }
 
-/*const student: StudentClass = {
-    firstName: 'Bob',
-    lastName: 'Pants',
-}*/
-
-console.log(printTeacher("john", "ward"));
+console.log(printTeacher("John", "Doe"));
